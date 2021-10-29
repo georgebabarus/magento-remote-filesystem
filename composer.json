@@ -38,10 +38,20 @@
     "bb/module-filesystem-image": "^1.0"
   },
   "suggest": {
-    "bb/module-filesystem-s3": "^1.0"
+    "bb/filesystem-s3": "^1.0"
   },
   "require-dev": {
     "roave/security-advisories": "dev-master"
   },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://repo.magento.com/"
+    },
+    {
+      "type": "composer",
+      "url": "https://repo.asset42.com/"
+    }
+  ],
   "prefer-stable": true
 }
