@@ -28,8 +28,14 @@
   ],
   "require": {
     "php": "~7.1.3||~7.2.0||~7.3.0||~7.4.0",
-    "magento/framework": "*",
-    "bb/filesystem": "^1.0"
+    "magento/framework": ">101.0.11",
+    "bb/filesystem": "^1.0",
+    "bb/module-filesystem-overwrites": "^1.0",
+    "bb/module-filesystem-catalog": "^1.0",
+    "bb/module-filesystem-cms": "^1.0",
+    "bb/module-filesystem-downloadable": "^1.0",
+    "bb/module-filesystem-theme": "^1.0",
+    "bb/module-filesystem-image": "^1.0"
   },
   "require-dev": {
     "roave/security-advisories": "dev-master"
