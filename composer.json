@@ -37,6 +37,9 @@
     "bb/module-filesystem-theme": "^1.0",
     "bb/module-filesystem-image": "^1.0"
   },
+  "suggest": {
+    "bb/module-filesystem-s3": "^1.0"
+  },
   "require-dev": {
     "roave/security-advisories": "dev-master"
   },
