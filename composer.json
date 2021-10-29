@@ -19,7 +19,12 @@
     "sort-packages": true
   },
   "keywords": [
-    "magento"
+    "magento",
+    "magento 2",
+    "extension",
+    "module",
+    "filesystem",
+    "remote"
   ],
   "require": {
     "php": "~7.1.3||~7.2.0||~7.3.0||~7.4.0",
