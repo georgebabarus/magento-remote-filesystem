@@ -1,0 +1,33 @@
+{
+  "name": "bb/magento-remote-filesystem",
+  "description": "Magento 2 remote filesystem extension metapackage - contains all required dependencies to allow Magento 2 application connect to various remote filesystems like Amazon S3, Azure Blob Storage.",
+  "version": "1.0.0",
+  "type": "metapackage",
+  "license": [
+    "ADSL"
+  ],
+  "homepage": "https://docs.magento.asset42.com/",
+  "authors": [
+    {
+      "name": "George Babarus",
+      "email": "george.babarus+42@gmail.com",
+      "homepage": "https://george.babarus.ro/"
+    }
+  ],
+  "config": {
+    "preferred-install": "dist",
+    "sort-packages": true
+  },
+  "keywords": [
+    "magento"
+  ],
+  "require": {
+    "php": "~7.1.3||~7.2.0||~7.3.0||~7.4.0",
+    "magento/framework": "*",
+    "bb/filesystem": "^1.0"
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-master"
+  },
+  "prefer-stable": true
+}
